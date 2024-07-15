@@ -1,7 +1,5 @@
 DAY 1: VARIABLES AND DATA TYPES
 
-Day 1: Variables and Data Types
-
 Tasks/Activities:
 
 Activity 1: Variable Declaration
