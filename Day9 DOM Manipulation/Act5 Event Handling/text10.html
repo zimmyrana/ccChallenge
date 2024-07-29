@@ -15,13 +15,18 @@
     </style>
  </head>
  <body>
-    <p id="para" onmouseover="changeBorder()">
+    <p id="para" onmouseleave="resetBorder()" onmouseover="changeBorder()">
 
     </p>
     <script>
         function changeBorder(){
             let para = document.getElementById('para')
             para.style.border = '5px solid red'
+        }
+
+        function resetBorder(){
+            let para = document.getElementById('para')
+            para.style.border = '5px dotted cornflowerblue'
         }
     </script>
  </body>
