@@ -1,0 +1,27 @@
+<!-- Task 5: Select an HTML element and remove it from the DOM. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <ul id="list">
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ipsam ut nemo!</p>
+
+    <script>
+        let list = document.querySelector('ul')
+        let nav = list.parentNode
+        nav.removeChild(list)
+
+        //list.remove() //it removes ul element directly
+    </script>
+</body>
+</html>

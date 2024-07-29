@@ -1,0 +1,26 @@
+<!-- Task 4: Create a new li element and add it to an existing ul list. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <ul id="list">
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    
+    <script>
+        let list = document.getElementById('list')
+        let li = document.createElement('li')
+        li.textContent = 'Contact'
+
+        list.appendChild(li)
+    </script>
+</body>
+</html>

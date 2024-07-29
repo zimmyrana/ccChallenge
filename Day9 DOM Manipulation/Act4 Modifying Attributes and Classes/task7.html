@@ -1,0 +1,23 @@
+<!-- Task7 Select an HTML element and change one of its attributes (e.g., src of an img tag). -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type="text" value="Hello" placeholder="Hello">
+
+    <script>
+        //it selects all input elements of page
+        let input = document.getElementsByTagName('input')
+
+        //we are changing first input elements value
+        input[0].setAttribute('value','Namaste')
+    </script>
+    
+</body>
+</html>
