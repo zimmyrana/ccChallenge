@@ -1,0 +1,28 @@
+<!-- Task 10: Add a mouseover event listener to an element that changes its border color. -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #para{
+            margin-top: 10vh;
+            height: 70vh;
+            background-color: #121212;
+            border: 5px dotted cornflowerblue;
+        }
+    </style>
+ </head>
+ <body>
+    <p id="para" onmouseover="changeBorder()">
+
+    </p>
+    <script>
+        function changeBorder(){
+            let para = document.getElementById('para')
+            para.style.border = '5px solid red'
+        }
+    </script>
+ </body>
+ </html>

@@ -1,0 +1,24 @@
+<!-- Task 9: Add a click event listener to a button that changes the text content of a paragraph. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, maxime deserunt temporibus sint, earum deleniti dolorem reiciendis veritatis fugiat suscipit possimus quisquam qui!</p>
+
+    <button onclick="changeText()">Change Text of Paragraph</button>
+
+    <script>
+
+        function changeText(){
+            let para = document.getElementsByTagName('p')
+            para[0].textContent = 'Add a click event listener to a button that changes the text content of a paragraph.'
+        }
+        
+    </script>
+</body>
+</html>

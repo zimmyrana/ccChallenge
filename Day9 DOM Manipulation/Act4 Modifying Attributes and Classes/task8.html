@@ -1,0 +1,47 @@
+<!-- Task 8: Add and remove a CSS class to/from an HTML element. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header,footer {
+            height: 10vh;
+            background-color: cadetblue;
+        }
+
+        main{
+            height: 70vh;
+            background-color: rgb(216, 145, 57);
+        }
+
+        .addMargin {
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+    <main>
+        <button onclick="addClass()">Add Class</button><br>
+        <button onclick="removeClass()">Remove Class</button>
+    </main>
+    <footer></footer>
+    <script>
+
+        function addClass(){
+            let header = document.getElementsByTagName('header')
+            header[0].classList.add('addMargin')
+        }
+
+        function removeClass(){
+            let header = document.getElementsByTagName('header')
+            header[0].classList.remove('addMargin')
+        }
+
+
+    </script>
+</body>
+</html>
