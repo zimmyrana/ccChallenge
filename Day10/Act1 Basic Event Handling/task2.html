@@ -1,0 +1,38 @@
+<!-- Task 2: Add a double-click event listener to an image that toggles its visibility. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            height: 90vh;
+            visibility: visible;
+            box-shadow: 2px 2px 2px 2px black;
+        }
+    </style>
+</head>
+
+<body>
+    <img id="img"
+        src="https://images.unsplash.com/photo-1517026575980-3e1e2dedeab4?q=80&w=1398&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        
+    <script>
+        function toggleImg() {
+            let img = document.getElementById('img')
+            if (img.style.visibility === 'hidden') {
+                img.style.visibility = 'visible'
+            } else {
+                img.setAttribute('style','visibility:hidden')
+            }
+
+        }
+
+        document.getElementById('img').addEventListener('dblclick', toggleImg)
+    </script>
+</body>
+
+</html>

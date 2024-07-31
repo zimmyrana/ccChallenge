@@ -1,0 +1,34 @@
+<!-- Task 4: Add a mouseout event listener to an element that resets its background color. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id='bg'>
+
+    </div>
+    <script>
+        let bg = document.getElementById('bg')
+        
+
+        bg.addEventListener('mouseover', () => {
+            // bg.setAttribute('style','background-color:darkblue')
+            bg.style.backgroundColor = 'darkblue'
+        })
+        
+        bg.addEventListener('mouseout', () => {
+            // bg.setAttribute('style','background-color:#363636')
+            bg.style.backgroundColor = '#363636'
+        })
+    </script>
+</body>
+
+</html>

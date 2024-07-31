@@ -1,0 +1,39 @@
+<!-- Task 10: Add an event listener to a parent element that listens for events from dynamically added child elements. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body>
+
+    <button id="addChild">Add list item</button>
+
+    <ul id="list">
+        <li>item1</li>
+        <li>item2</li>
+    </ul>
+
+    <script>
+        let list = document.getElementById('list');
+        let addItem = document.getElementById('addChild')
+
+        list.addEventListener('click', (event) => {
+            console.log(event.target.textContent)
+        })
+
+        addItem.addEventListener('click', (event) => {
+            let newItem = document.createElement('li')
+            newItem.textContent = `New Item${list.children.length + 1}`
+            list.appendChild(newItem)
+        })
+
+    </script>
+</body>
+
+</html>

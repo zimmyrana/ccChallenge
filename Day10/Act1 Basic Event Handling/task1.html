@@ -1,0 +1,30 @@
+<!-- Task 1: Add a click event listener to a button that changes the text content of a paragraph. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+    <p id="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, aperiam. Vero quos consequatur ipsa accusamus hic vel eligendi! In sapiente officia, consequatur reiciendis dolorem magni eum. Ut nostrum labore asperiores.</p>
+    <button id="changePara">Change Paragraph</button>
+    <script>
+        let para = document.getElementById('para')
+        let changePara = document.getElementById('changePara')
+
+        changePara.addEventListener('click',()=>{
+            para.textContent = `
+                By the end of these activities, students will: 
+                    • Add and handle basic events like click, double-click, mouseover, mouseout, keydown, and keyup. 
+                    • Understand and handle form events. 
+                    • Implement event delegation to manage events on dynamically added elements. 
+                    • Make web pages interactive by responding to various user actions.
+            `
+        })
+
+    </script>
+</body>
+</html>

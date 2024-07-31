@@ -1,0 +1,25 @@
+<!-- Task 9: Add a click event listener to a list that logs the text content of the clicked list item using event delegation.  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+    <ul id="list">
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ul>
+    <script>
+        let list = document.getElementById('list')
+
+        list.addEventListener('click',(event)=>{
+            console.log(event.target.textContent)
+        })  
+    </script>
+</body>
+</html>
