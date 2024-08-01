@@ -1,4 +1,4 @@
-CLOSE DAY 15: CLOSURES
+DAY 15: CLOSURES
 
 Tasks/Activities:
 

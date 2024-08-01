@@ -1,4 +1,4 @@
-CLOSE DAY 13: MODULES
+DAY 13: MODULES
 
 Tasks/Activities:
 

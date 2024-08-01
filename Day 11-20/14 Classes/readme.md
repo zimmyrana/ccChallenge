@@ -1,4 +1,4 @@
-CLOSE DAY 14: CLASSES
+DAY 14: CLASSES
 
 Tasks/Activities:
 

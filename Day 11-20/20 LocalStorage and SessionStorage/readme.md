@@ -1,4 +1,3 @@
-
 DAY 20: LOCALSTORAGE AND SESSIONSTORAGE
 
 Tasks/Activities:
