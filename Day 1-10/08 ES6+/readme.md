@@ -1,4 +1,4 @@
-8: ES6+ FEATURES
+DAY 8: ES6+ FEATURES
 
 Tasks/Activities:
 
