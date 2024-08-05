@@ -22,6 +22,7 @@ Activity 4: Error Handling in Promises
 • Task 7: Use try-catch within an async function to handle errors from a promise that randomly resolves or rejects, and log the error message.
 
 Activity 5: Graceful Error Handling in Fetch
+
 • Task 8: Use the fetch API to request data from an invalid URL and handle the error using .catch(). Log an appropriate error message to the console.
 • Task 9: Use the fetch API to request data from an invalid URL within an async function and handle the error using try-catch. Log an appropriate error message.
 
