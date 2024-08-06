@@ -17,6 +17,7 @@ Activity 3: Importing Entire Modules
 • Task 5: Create a module that exports multiple constants and functions. Import the entire module as an object in another script and use its properties. 
 
 Activity 4: Using Third-Party Modules
+
 • Task 6: Install a third-party module (e.g., lodash) using npm. Import and use a function from this module in a script.
 • Task 7: Install a third-party module (e.g., axios) using npm. Import and use this module to make a network request in a script.
 

@@ -14,7 +14,7 @@ function doDivide(numer,denomin){
     } catch(err){
         return err.message
     } finally {
-        console.log('finally excuted')
+        console.log('finally executed')
         /*Writing a return statement inside a finally block in JavaScript can lead to some potentially confusing behavior. The finally block is executed after the try and catch blocks, regardless of whether an exception was thrown or caught. If you include a return statement in a finally block, it will override any return value from the try or catch blocks. This means that the value returned by the finally block will take precedence. */
     }
 }
