@@ -14,7 +14,10 @@ Activity 2: Practical Closures
 
 Activity 3: Closures in Loops
 
-• Task 5: Write a loop that creates an array of functions. Each function should log its index when called. Use a closure to ensure each function logs the correct index. Activity 4: Module Pattern
+• Task 5: Write a loop that creates an array of functions. Each function should log its index when called. Use a closure to ensure each function logs the correct index. 
+
+Activity 4: Module Pattern
+
 • Task 6: Use closures to create a simple module for managing a collection of items. Implement methods to add, remove, and list items. 
 
 Activity 5: Memoization
